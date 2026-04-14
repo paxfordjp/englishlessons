@@ -17,7 +17,7 @@
       background-image: url('images/header-banner.jpg');
       background-size: cover;
       background-position: center;
-      color: white;
+      color: #000; /* changed from white to black */
       padding: 60px 20px;
       text-align: center;
     }
@@ -76,13 +76,6 @@
       text-align: center;
     }
 
-    .class-card img {
-      width: 100%;
-      max-width: 200px;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-
     form input, form textarea {
       width: 100%;
       padding: 10px;
@@ -136,7 +129,6 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <img src="images/paula.jpg" alt="Paula sensei">
     <p>Hello! I’m Paula, a Master’s degree holder from Oxford University and PhD from Tokyo University, with years of experience teaching English to students of all levels in Japan. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your English goals!</p>
     <p>初めまして！私はパウラです。オックスフォード大学で修士号を取得し、東京大学で博士号を取得しました。これまで幅広いレベルの生徒に英語を教えてきた経験があります。英語指導、試験対策（TOEFL、IELTS）、会話スキルの習得を専門としており、レッスンは生徒一人ひとりに合わせてカスタマイズされ、インタラクティブで効率的に目標達成をサポートします。</p>
   </section>
@@ -172,37 +164,31 @@
 
     <div class="class-card">
       <h3>English Conversation / 英語会話</h3>
-      <img src="images/conversation.jpg" alt="English Conversation">
       <p>実際の会話を通じて流暢さと自信を高め、実用的な表現やイディオム、自然な文章の流れを学びます。</p>
     </div>
 
     <div class="class-card">
       <h3>English Writing / ライティング</h3>
-      <img src="images/writing.jpg" alt="English Writing">
       <p>メール、エッセイ、レポートなどの文章力を向上させ、構成、明瞭さ、表現力を磨きます。</p>
     </div>
 
     <div class="class-card">
       <h3>Grammar & Vocabulary / 文法・語彙</h3>
-      <img src="images/grammar.jpg" alt="Grammar and Vocabulary">
       <p>文法を強化し、語彙を増やす実践的な練習を行い、日常英語や学術英語に対応できる力をつけます。</p>
     </div>
 
     <div class="class-card">
       <h3>Pronunciation / 発音</h3>
-      <img src="images/pronunciation.jpg" alt="Pronunciation">
       <p>発音、イントネーション、アクセントを改善し、自然で自信のある英語を話せるようにします。</p>
     </div>
 
     <div class="class-card">
       <h3>Medical English / 医療英語</h3>
-      <img src="images/medical.jpg" alt="Medical English">
       <p>医療従事者向けの専門レッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
     </div>
 
     <div class="class-card">
       <h3>Personalized Lesson / 個別レッスン</h3>
-      <img src="images/personalized.jpg" alt="Personalized Lesson">
       <p>生徒の希望に応じてレッスン内容をカスタマイズできます。会話、ビジネス英語など、特定の分野に集中可能です。料金は内容や時間により異なります。</p>
     </div>
   </section>
@@ -226,4 +212,9 @@
     </form>
   </section>
 
-  <footer
+  <footer>
+    <p>&copy; 2026 Paula sensei | English Tutoring</p>
+  </footer>
+
+</body>
+</html>
