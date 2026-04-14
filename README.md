@@ -14,10 +14,8 @@
     }
 
     header {
-      background-image: url('images/header-banner.jpg');
-      background-size: cover;
-      background-position: center;
-      color: #000; /* changed from white to black */
+      background-color: #e0f0ff; /* background sólido en lugar de imagen */
+      color: #003366; /* azul oscuro */
       padding: 60px 20px;
       text-align: center;
     }
@@ -103,14 +101,6 @@
       padding: 20px 0;
       background-color: #333;
       color: white;
-    }
-
-    #about img {
-      width: 180px;
-      border-radius: 50%;
-      float: right;
-      margin-left: 20px;
-      margin-bottom: 10px;
     }
   </style>
 </head>
