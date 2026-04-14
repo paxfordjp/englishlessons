@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     }
 
     header {
-      background-color: #1E90FF; /* blue header */
+      background-color: #1E90FF;
       color: white;
       padding: 20px 0;
       text-align: center;
@@ -28,7 +28,7 @@
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #1E90FF; /* blue nav links */
+      color: #1E90FF;
       font-weight: bold;
     }
 
@@ -43,7 +43,7 @@
     }
 
     h2 {
-      color: #1E90FF; /* blue headings */
+      color: #1E90FF;
     }
 
     table {
@@ -93,6 +93,10 @@
       background-color: #333;
       color: white;
     }
+
+    .class-card {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -103,11 +107,7 @@
   <nav>
     <a href="#about">About Me</a>
     <a href="#lessons">Lessons & Pricing</a>
-    <a href="#conversation">English Conversation</a>
-    <a href="#writing">English Writing</a>
-    <a href="#grammar">Grammar & Vocabulary</a>
-    <a href="#pronunciation">Pronunciation</a>
-    <a href="#medical">Medical English</a>
+    <a href="#classes">Classes</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -147,34 +147,16 @@
     <p>All lessons are customized to your needs and skill level.</p>
   </section>
 
-  <section id="conversation">
-    <h2>English Conversation / 英語会話</h2>
-    <p>Practice real-life conversations, improve fluency, and gain confidence in speaking English. Lessons are interactive and tailored to your interests.</p>
-    <p>実際の会話を練習し、流暢さを高め、英語を話す自信をつけます。レッスンはインタラクティブで、生徒の興味に合わせてカスタマイズされます。</p>
-  </section>
-
-  <section id="writing">
-    <h2>English Writing / ライティング</h2>
-    <p>Develop your writing skills for essays, emails, and reports. Learn structure, style, and clarity in English writing.</p>
-    <p>エッセイ、メール、レポートなどのライティングスキルを向上させます。文章の構成、スタイル、明確さを学びます。</p>
-  </section>
-
-  <section id="grammar">
-    <h2>Grammar & Vocabulary / 文法・語彙</h2>
-    <p>Strengthen your grammar and expand your vocabulary with practical exercises for everyday and academic English.</p>
-    <p>文法を強化し、語彙を増やします。日常英語や学術英語に役立つ実践的な練習を行います。</p>
-  </section>
-
-  <section id="pronunciation">
-    <h2>Pronunciation / 発音</h2>
-    <p>Improve your pronunciation, intonation, and accent to sound more natural and confident when speaking English.</p>
-    <p>発音、イントネーション、アクセントを改善し、より自然で自信のある英語を話せるようにします。</p>
-  </section>
-
-  <section id="medical">
-    <h2>Medical English / 医療英語</h2>
-    <p>Specialized lessons for healthcare professionals to communicate effectively in English with patients, colleagues, and medical documentation.</p>
-    <p>医療従事者向けの専門的なレッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
+  <section id="classes">
+    <h2>Classes / クラス内容</h2>
+    <p>Choose from the following types of lessons:</p>
+    <ul>
+      <li><strong>English Conversation / 英語会話:</strong> Practice speaking and fluency in real-life scenarios. 実際の会話を練習し、流暢さを高めます。</li>
+      <li><strong>English Writing / ライティング:</strong> Improve your essays, emails, and reports. エッセイ、メール、レポートなどのライティングスキルを向上させます。</li>
+      <li><strong>Grammar & Vocabulary / 文法・語彙:</strong> Strengthen your grammar and expand your vocabulary. 文法を強化し、語彙を増やします。</li>
+      <li><strong>Pronunciation / 発音:</strong> Improve your pronunciation and accent. 発音、イントネーション、アクセントを改善します。</li>
+      <li><strong>Medical English / 医療英語:</strong> Specialized lessons for healthcare professionals. 医療従事者向けの専門レッスンです。</li>
+    </ul>
   </section>
 
   <section id="contact">
