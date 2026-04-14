@@ -96,7 +96,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m Paula, a master's degree holder with years of experience teaching English to students of all levels. I specialize in academic English, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
+    <p>Hello! I’m Paula, a master's degree holder with years of experience teaching English to students of all levels. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
   </section>
 
   <section id="lessons">
@@ -108,7 +108,7 @@
       </tr>
       <tr>
         <td>30 minutes</td>
-        <td>2,250</td>
+        <td>2,500</td>
       </tr>
       <tr>
         <td>50 minutes</td>
@@ -116,7 +116,7 @@
       </tr>
       <tr>
         <td>60 minutes</td>
-        <td>4,500</td>
+        <td>4,700</td>
       </tr>
       <tr>
         <td>90 minutes</td>
