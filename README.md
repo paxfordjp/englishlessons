@@ -84,7 +84,7 @@
 </head>
 <body>
   <header>
-    <h1>English Tutoring with [Your Name]</h1>
+    <h1>English Tutoring with Paula sensei </h1>
     <p>Learn English effectively with a PhD and experienced teacher</p>
   </header>
 
@@ -96,7 +96,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m [Your Name], a PhD holder with years of experience teaching English to students of all levels. I specialize in academic English, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
+    <p>Hello! I’m Paula, a master's degree holder with years of experience teaching English to students of all levels. I specialize in academic English, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
   </section>
 
   <section id="lessons">
@@ -105,27 +105,22 @@
       <tr>
         <th>Lesson Length</th>
         <th>Single Lesson (¥)</th>
-        <th>5-Lesson Package (¥)</th>
       </tr>
       <tr>
         <td>30 minutes</td>
         <td>2,250</td>
-        <td>11,250</td>
       </tr>
       <tr>
         <td>50 minutes</td>
         <td>3,750</td>
-        <td>17,500</td>
       </tr>
       <tr>
         <td>60 minutes</td>
         <td>4,500</td>
-        <td>21,000</td>
       </tr>
       <tr>
         <td>90 minutes</td>
         <td>6,750</td>
-        <td>31,500</td>
       </tr>
     </table>
     <p>All lessons are customized to your needs and skill level.</p>
@@ -133,7 +128,7 @@
 
   <section id="contact">
     <h2>Contact & Booking</h2>
-    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
 
