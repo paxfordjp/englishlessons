@@ -95,7 +95,16 @@
     }
 
     .class-card {
+      background-color: #e6f2ff;
+      padding: 15px;
       margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .class-card h3 {
+      color: #1E90FF;
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -149,14 +158,43 @@
 
   <section id="classes">
     <h2>Classes / クラス内容</h2>
-    <p>Choose from the following types of lessons:</p>
-    <ul>
-      <li><strong>English Conversation / 英語会話:</strong> Practice speaking and fluency in real-life scenarios. 実際の会話を練習し、流暢さを高めます。</li>
-      <li><strong>English Writing / ライティング:</strong> Improve your essays, emails, and reports. エッセイ、メール、レポートなどのライティングスキルを向上させます。</li>
-      <li><strong>Grammar & Vocabulary / 文法・語彙:</strong> Strengthen your grammar and expand your vocabulary. 文法を強化し、語彙を増やします。</li>
-      <li><strong>Pronunciation / 発音:</strong> Improve your pronunciation and accent. 発音、イントネーション、アクセントを改善します。</li>
-      <li><strong>Medical English / 医療英語:</strong> Specialized lessons for healthcare professionals. 医療従事者向けの専門レッスンです。</li>
-    </ul>
+    <p>Choose from the following types of lessons. All lessons are designed to help you improve efficiently:</p>
+
+    <div class="class-card">
+      <h3>English Conversation / 英語会話</h3>
+      <p>Develop fluency and confidence in speaking English through real-life conversations. Learn practical expressions, idioms, and natural sentence flow. 
+         実際の会話を通じて流暢さと自信を高め、実用的な表現やイディオム、自然な文章の流れを学びます。</p>
+    </div>
+
+    <div class="class-card">
+      <h3>English Writing / ライティング</h3>
+      <p>Improve your writing skills for emails, essays, and reports. Focus on structure, clarity, and style to communicate effectively in English.
+         メール、エッセイ、レポートなどの文章力を向上させ、構成、明瞭さ、表現力を磨きます。</p>
+    </div>
+
+    <div class="class-card">
+      <h3>Grammar & Vocabulary / 文法・語彙</h3>
+      <p>Strengthen your grammar and expand your vocabulary with practical exercises for both everyday and academic English.
+         文法を強化し、語彙を増やす実践的な練習を行い、日常英語や学術英語に対応できる力をつけます。</p>
+    </div>
+
+    <div class="class-card">
+      <h3>Pronunciation / 発音</h3>
+      <p>Work on pronunciation, intonation, and accent to speak English naturally and confidently.
+         発音、イントネーション、アクセントを改善し、自然で自信のある英語を話せるようにします。</p>
+    </div>
+
+    <div class="class-card">
+      <h3>Medical English / 医療英語</h3>
+      <p>Specialized English lessons for healthcare professionals to communicate accurately with patients and colleagues, and handle medical documentation.
+         医療従事者向けの専門レッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
+    </div>
+
+    <div class="class-card">
+      <h3>Personalized Lesson / 個別レッスン</h3>
+      <p>Customize your lesson according to your specific needs. You can focus on any area of English you want to improve, from conversation to business English. Prices vary depending on the content and length.
+         生徒の希望に応じてレッスン内容をカスタマイズできます。会話、ビジネス英語など、特定の分野に集中可能です。料金は内容や時間により異なります。</p>
+    </div>
   </section>
 
   <section id="contact">
@@ -172,14 +210,4 @@
       <input type="email" id="email" name="email" required>
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Paula sensei | English Tutoring</p>
-  </footer>
-</body>
-</html>
+      <textarea id="
