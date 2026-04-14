@@ -107,7 +107,7 @@
       </tr>
       <tr>
         <td>30 minutes</td>
-        <td>2,250</td>
+        <td>2,500</td>
       </tr>
       <tr>
         <td>50 minutes</td>
@@ -115,11 +115,11 @@
       </tr>
       <tr>
         <td>60 minutes</td>
-        <td>4,500</td>
+        <td>4,700</td>
       </tr>
       <tr>
         <td>90 minutes</td>
-        <td>6,750</td>
+        <td>6,800</td>
       </tr>
     </table>
     <p>All lessons are customized to your needs and skill level.</p>
@@ -127,7 +127,10 @@
 
   <section id="contact">
     <h2>Contact & Booking</h2>
-    <p>Email me to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.</p>
+    <p>Email me at paxfordjp@hotmail.com or fill in the box below to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.
+    
+    paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。
+    </p>
     <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
