@@ -13,42 +13,25 @@
       color: #333;
     }
 
-    /* Class summary styling */
-    #class-summary {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      background-color: #e6f2ff;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    #class-summary h2 {
-      color: #1E90FF;
-    }
-    #class-summary ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    #class-summary li {
-      margin-bottom: 8px;
-    }
-
     header {
       background-color: #1E90FF; /* blue header */
       color: white;
       padding: 20px 0;
       text-align: center;
     }
+
     nav {
       text-align: center;
       margin: 10px 0;
     }
+
     nav a {
       margin: 0 15px;
       text-decoration: none;
       color: #1E90FF; /* blue nav links */
       font-weight: bold;
     }
+
     section {
       padding: 40px 20px;
       max-width: 900px;
@@ -58,24 +41,30 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     h2 {
       color: #1E90FF; /* blue headings */
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 15px;
     }
+
     table, th, td {
       border: 1px solid #ddd;
     }
+
     th, td {
       padding: 12px;
       text-align: center;
     }
+
     th {
       background-color: #f2f2f2;
     }
+
     form input, form textarea {
       width: 100%;
       padding: 10px;
@@ -83,6 +72,7 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+
     form button {
       background-color: #1E90FF;
       color: white;
@@ -92,9 +82,11 @@
       cursor: pointer;
       font-size: 16px;
     }
+
     form button:hover {
       background-color: #187bcd;
     }
+
     footer {
       text-align: center;
       padding: 15px 0;
@@ -155,7 +147,6 @@
     <p>All lessons are customized to your needs and skill level.</p>
   </section>
 
-  <!-- Each class as its own section -->
   <section id="conversation">
     <h2>English Conversation / 英語会話</h2>
     <p>Practice real-life conversations, improve fluency, and gain confidence in speaking English. Lessons are interactive and tailored to your interests.</p>
