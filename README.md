@@ -97,7 +97,6 @@
     <p>Hello! I’m Paula, a Master’s degree holder from Oxford University and PhD from Tokyo University, with years of experience teaching English to students of all levels. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your English goals! </p>
     <p>初めまして！私はパウラです。オックスフォード大学で修士号を取得し、東京大学で博士号を取得しました。これまで幅広いレベルの生徒に英語を教えてきた経験があります。英語指導、試験対策（TOEFL、IELTS）、会話スキルの習得を専門としており、レッスンは生徒一人ひとりに合わせてカスタマイズされ、インタラクティブで効率的に目標達成をサポートします。    
     </p>
-  </section>
 
   <section id="lessons">
     <h2>Lessons & Pricing</h2>
