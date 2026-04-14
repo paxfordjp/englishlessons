@@ -128,10 +128,10 @@
 
   <section id="contact">
     <h2>Contact & Booking</h2>
-    <p>Email me at paxfordjp@hotmail.com or fill in the box below to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.
+    <p>  paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。
+    </p>Email me at paxfordjp@hotmail.com or fill in the box below to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.
     
-    paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。
-    </p>
+   
     <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -149,5 +149,3 @@
   <footer>
     <p>&copy; 2026 Paula sensei | English Tutoring</p>
   </footer>
-</body>
-</html>
