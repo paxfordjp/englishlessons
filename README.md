@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>English Tutoring with Paula sensei </title>
+  <title>English Tutoring with Paula sensei</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
       color: #333;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #1E90FF; /* blue header */
       color: white;
       padding: 20px 0;
       text-align: center;
@@ -25,7 +25,7 @@
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #4CAF50;
+      color: #1E90FF; /* blue nav links */
       font-weight: bold;
     }
     section {
@@ -38,7 +38,7 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     h2 {
-      color: #4CAF50;
+      color: #1E90FF; /* blue headings */
     }
     table {
       width: 100%;
@@ -63,7 +63,7 @@
       border-radius: 4px;
     }
     form button {
-      background-color: #4CAF50;
+      background-color: #1E90FF;
       color: white;
       padding: 10px 20px;
       border: none;
@@ -72,7 +72,7 @@
       font-size: 16px;
     }
     form button:hover {
-      background-color: #45a049;
+      background-color: #187bcd;
     }
     footer {
       text-align: center;
@@ -84,8 +84,8 @@
 </head>
 <body>
   <header>
-    <h1>English Tutoring with Paula sensei </h1>
-    <p>Learn English effectively with a PhD and experienced teacher</p>
+    <h1>English Tutoring with Paula sensei</h1>
+    <p>Learn English effectively with an Oxford & Tokyo University expert</p>
   </header>
 
   <nav>
@@ -96,7 +96,7 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m Paula, a master's degree holder with years of experience teaching English to students of all levels. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
+    <p>Hello! I’m Paula, a Master’s degree holder from Oxford University and PhD from Tokyo University, with years of experience teaching English to students of all levels. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
   </section>
 
   <section id="lessons">
@@ -108,7 +108,7 @@
       </tr>
       <tr>
         <td>30 minutes</td>
-        <td>2,500</td>
+        <td>2,250</td>
       </tr>
       <tr>
         <td>50 minutes</td>
@@ -116,7 +116,7 @@
       </tr>
       <tr>
         <td>60 minutes</td>
-        <td>4,700</td>
+        <td>4,500</td>
       </tr>
       <tr>
         <td>90 minutes</td>
@@ -128,6 +128,7 @@
 
   <section id="contact">
     <h2>Contact & Booking</h2>
+    <p>Email me to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.</p>
     <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -143,7 +144,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2026 [Your Name] | English Tutoring</p>
+    <p>&copy; 2026 Paula sensei | English Tutoring</p>
   </footer>
 </body>
 </html>
