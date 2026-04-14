@@ -85,7 +85,6 @@
 <body>
   <header>
     <h1>English Tutoring with Paula sensei</h1>
-    <p>Learn English effectively with an Oxford & Tokyo University expert</p>
   </header>
 
   <nav>
