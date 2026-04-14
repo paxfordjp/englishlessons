@@ -211,10 +211,19 @@
     <h2>Contact & Booking</h2>
     <p>Paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。</p>
     <p>Email me at paxfordjp@hotmail.com or fill in the box below to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.</p>
-    
+
     <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
 
       <label for="email">Email:</label>
-      <input type="
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer
