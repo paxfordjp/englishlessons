@@ -1,1 +1,154 @@
-# englishlessons
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Tutoring with Paula sensei </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>English Tutoring with [Your Name]</h1>
+    <p>Learn English effectively with a PhD and experienced teacher</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#lessons">Lessons & Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m [Your Name], a PhD holder with years of experience teaching English to students of all levels. I specialize in academic English, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your goals efficiently.</p>
+  </section>
+
+  <section id="lessons">
+    <h2>Lessons & Pricing</h2>
+    <table>
+      <tr>
+        <th>Lesson Length</th>
+        <th>Single Lesson (¥)</th>
+        <th>5-Lesson Package (¥)</th>
+      </tr>
+      <tr>
+        <td>30 minutes</td>
+        <td>2,250</td>
+        <td>11,250</td>
+      </tr>
+      <tr>
+        <td>50 minutes</td>
+        <td>3,750</td>
+        <td>17,500</td>
+      </tr>
+      <tr>
+        <td>60 minutes</td>
+        <td>4,500</td>
+        <td>21,000</td>
+      </tr>
+      <tr>
+        <td>90 minutes</td>
+        <td>6,750</td>
+        <td>31,500</td>
+      </tr>
+    </table>
+    <p>All lessons are customized to your needs and skill level.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Booking</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 [Your Name] | English Tutoring</p>
+  </footer>
+</body>
+</html>
