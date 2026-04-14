@@ -129,39 +129,49 @@
 <p>All lessons are customized to your needs and skill level.</p>
   </section>
 
-  <section id="classes">
-    <h2>Classes / クラス内容</h2>
+<section id="classes">
+  <h2>Classes / クラス内容</h2>
 
-    <div class="class-card">
-      <h3>English Conversation / 英語会話</h3>
-      <p>Practice real-life conversations, improve fluency, and gain confidence in speaking English. Lessons are interactive and tailored to your interests.</p>
-      <p>実際の会話を練習し、流暢さを高め、英語を話す自信をつけます。レッスンはインタラクティブで、生徒の興味に合わせてカスタマイズされます。</p>
-    </div>
+  <p>Choose from the following types of lessons:</p>
+  <ul>
+    <li><strong>English Conversation / 英語会話:</strong> Practice speaking and fluency in real-life scenarios. 実際の会話を練習し、流暢さを高めます。</li>
+    <li><strong>English Writing / ライティング:</strong> Improve your essays, emails, and reports. エッセイ、メール、レポートなどのライティングスキルを向上させます。</li>
+    <li><strong>Grammar & Vocabulary / 文法・語彙:</strong> Strengthen your grammar and expand your vocabulary. 文法を強化し、語彙を増やします。</li>
+    <li><strong>Pronunciation / 発音:</strong> Improve your pronunciation and accent. 発音、イントネーション、アクセントを改善します。</li>
+    <li><strong>Medical English / 医療英語:</strong> Specialized lessons for healthcare professionals. 医療従事者向けの専門レッスンです。</li>
+  </ul>
 
-    <div class="class-card">
-      <h3>English Writing / ライティング</h3>
-      <p>Develop your writing skills for essays, emails, and reports. Learn structure, style, and clarity in English writing.</p>
-      <p>エッセイ、メール、レポートなどのライティングスキルを向上させます。文章の構成、スタイル、明確さを学びます。</p>
-    </div>
+  <!-- Detailed cards follow -->
+  <div class="class-card">
+    <h3>English Conversation / 英語会話</h3>
+    <p>Practice real-life conversations, improve fluency, and gain confidence in speaking English. Lessons are interactive and tailored to your interests.</p>
+    <p>実際の会話を練習し、流暢さを高め、英語を話す自信をつけます。レッスンはインタラクティブで、生徒の興味に合わせてカスタマイズされます。</p>
+  </div>
 
-    <div class="class-card">
-      <h3>Grammar and Vocabulary / 文法・語彙</h3>
-      <p>Strengthen your grammar and expand your vocabulary with practical exercises for everyday and academic English.</p>
-      <p>文法を強化し、語彙を増やします。日常英語や学術英語に役立つ実践的な練習を行います。</p>
-    </div>
+  <div class="class-card">
+    <h3>English Writing / ライティング</h3>
+    <p>Develop your writing skills for essays, emails, and reports. Learn structure, style, and clarity in English writing.</p>
+    <p>エッセイ、メール、レポートなどのライティングスキルを向上させます。文章の構成、スタイル、明確さを学びます。</p>
+  </div>
 
-    <div class="class-card">
-      <h3>Pronunciation / 発音</h3>
-      <p>Improve your pronunciation, intonation, and accent to sound more natural and confident when speaking English.</p>
-      <p>発音、イントネーション、アクセントを改善し、より自然で自信のある英語を話せるようにします。</p>
-    </div>
+  <div class="class-card">
+    <h3>Grammar and Vocabulary / 文法・語彙</h3>
+    <p>Strengthen your grammar and expand your vocabulary with practical exercises for everyday and academic English.</p>
+    <p>文法を強化し、語彙を増やします。日常英語や学術英語に役立つ実践的な練習を行います。</p>
+  </div>
 
-    <div class="class-card">
-      <h3>Medical English / 医療英語</h3>
-      <p>Specialized lessons for healthcare professionals to communicate effectively in English with patients, colleagues, and medical documentation.</p>
-      <p>医療従事者向けの専門的なレッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
-    </div>
-  </section>
+  <div class="class-card">
+    <h3>Pronunciation / 発音</h3>
+    <p>Improve your pronunciation, intonation, and accent to sound more natural and confident when speaking English.</p>
+    <p>発音、イントネーション、アクセントを改善し、より自然で自信のある英語を話せるようにします。</p>
+  </div>
+
+  <div class="class-card">
+    <h3>Medical English / 医療英語</h3>
+    <p>Specialized lessons for healthcare professionals to communicate effectively in English with patients, colleagues, and medical documentation.</p>
+    <p>医療従事者向けの専門的なレッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
+  </div>
+</section>
   <section id="contact">
     <h2>Contact & Booking</h2>
     <p>  paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。
