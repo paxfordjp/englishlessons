@@ -1,3 +1,14 @@
+<section id="class-summary">
+  <h2>Classes Overview / クラス内容概要</h2>
+  <ul>
+    <li><strong>English Conversation / 英語会話:</strong> Practice speaking and fluency in real-life scenarios. 実際の会話を練習し、流暢さを高めます。</li>
+    <li><strong>English Writing / ライティング:</strong> Improve your essays, emails, and reports. エッセイ、メール、レポートなどのライティングスキルを向上させます。</li>
+    <li><strong>Grammar & Vocabulary / 文法・語彙:</strong> Strengthen your grammar and expand your vocabulary. 文法を強化し、語彙を増やします。</li>
+    <li><strong>Pronunciation / 発音:</strong> Improve your pronunciation and accent. 発音、イントネーション、アクセントを改善します。</li>
+    <li><strong>Medical English / 医療英語:</strong> Specialized lessons for healthcare professionals. 医療従事者向けの専門レッスンです。</li>
+  </ul>
+</section>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
