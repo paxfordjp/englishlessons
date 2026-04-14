@@ -116,7 +116,7 @@
       </tr>
       <tr>
         <td>60 minutes</td>
-        <td>4,700</td>
+        <td>4,800</td>
       </tr>
       <tr>
         <td>90 minutes</td>
