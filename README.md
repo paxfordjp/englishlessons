@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,20 +9,24 @@
       font-family: Arial, sans-serif;
       margin: 0;
       line-height: 1.6;
-      background-color: #f0f8ff;
+      background-color: #f7f7f7;
       color: #333;
     }
 
     header {
-      background-color: #e0f0ff; /* background sólido en lugar de imagen */
-      color: #003366; /* azul oscuro */
-      padding: 60px 20px;
+      background-color: #1E90FF;
+      color: #fff;
+      padding: 20px 0;
       text-align: center;
+    }
+
+    header h1 {
+      color: #FFFF99;
     }
 
     nav {
       text-align: center;
-      margin: 15px 0;
+      margin: 10px 0;
     }
 
     nav a {
@@ -38,13 +42,12 @@
       margin: auto;
       background-color: white;
       margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     h2 {
       color: #1E90FF;
-      text-align: center;
     }
 
     table {
@@ -63,15 +66,7 @@
     }
 
     th {
-      background-color: #e0f0ff;
-    }
-
-    .class-card {
-      background-color: #e6f2ff;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      text-align: center;
+      background-color: #f2f2f2;
     }
 
     form input, form textarea {
@@ -85,9 +80,9 @@
     form button {
       background-color: #1E90FF;
       color: white;
-      padding: 12px 20px;
+      padding: 10px 20px;
       border: none;
-      border-radius: 5px;
+      border-radius: 4px;
       cursor: pointer;
       font-size: 16px;
     }
@@ -98,29 +93,54 @@
 
     footer {
       text-align: center;
-      padding: 20px 0;
+      padding: 15px 0;
       background-color: #333;
       color: white;
     }
+
+    /* Gallery */
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .photo-gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .photo-gallery img:hover {
+      transform: scale(1.05);
+    }
+
   </style>
 </head>
 <body>
-
   <header>
     <h1>English Tutoring with Paula sensei</h1>
+    <p>Learn English effectively with a PhD and experienced teacher</p>
   </header>
 
   <nav>
     <a href="#about">About Me</a>
     <a href="#lessons">Lessons & Pricing</a>
     <a href="#classes">Classes</a>
+    <a href="#photos">Photos</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m Paula, a Master’s degree holder from Oxford University and PhD from Tokyo University, with years of experience teaching English to students of all levels in Japan. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your English goals!</p>
-    <p>初めまして！私はパウラです。オックスフォード大学で修士号を取得し、東京大学で博士号を取得しました。これまで幅広いレベルの生徒に英語を教えてきた経験があります。英語指導、試験対策（TOEFL、IELTS）、会話スキルの習得を専門としており、レッスンは生徒一人ひとりに合わせてカスタマイズされ、インタラクティブで効率的に目標達成をサポートします。</p>
+    <p>Hello! I’m Paula, a Master’s degree holder from Oxford University and PhD from Tokyo University, 
+      with years of experience teaching English to students of all levels in Japan. I specialize in English teaching, exam preparation (TOEFL, IELTS), and conversation skills. My lessons are personalized, interactive, and designed to help you achieve your English goals!</p>
+    <p>初めまして！私はパウラです。オックスフォード大学で修士号を取得し、東京大学で博士号を取得しました。
+    これまで幅広いレベルの生徒に英語を教えてきた経験があります。英語指導、試験対策（TOEFL、IELTS）、会話スキルの習得を専門としており、レッスンは生徒一人ひとりに合わせてカスタマイズされ、インタラクティブで効率的に目標達成をサポートします。</p>
   </section>
 
   <section id="lessons">
@@ -151,43 +171,37 @@
 
   <section id="classes">
     <h2>Classes / クラス内容</h2>
+    <ul>
+      <li>English Conversation / 英語会話: 実際の会話を通して流暢さと自信を高めます。</li>
+      <li>English Writing / ライティング: エッセイ、メール、レポートなどのライティングスキルを向上させます。</li>
+      <li>Grammar & Vocabulary / 文法・語彙: 文法を強化し、語彙を増やします。</li>
+      <li>Pronunciation / 発音: 発音、イントネーション、アクセントを改善します。</li>
+      <li>Medical English / 医療英語: 医療従事者向けの専門レッスンです。</li>
+      <li>Personalized Lesson / パーソナライズドレッスン: 生徒の希望に合わせた特別レッスン。料金は内容により変動します。</li>
+    </ul>
+  </section>
 
-    <div class="class-card">
-      <h3>English Conversation / 英語会話</h3>
-      <p>実際の会話を通じて流暢さと自信を高め、実用的な表現やイディオム、自然な文章の流れを学びます。</p>
-    </div>
-
-    <div class="class-card">
-      <h3>English Writing / ライティング</h3>
-      <p>メール、エッセイ、レポートなどの文章力を向上させ、構成、明瞭さ、表現力を磨きます。</p>
-    </div>
-
-    <div class="class-card">
-      <h3>Grammar & Vocabulary / 文法・語彙</h3>
-      <p>文法を強化し、語彙を増やす実践的な練習を行い、日常英語や学術英語に対応できる力をつけます。</p>
-    </div>
-
-    <div class="class-card">
-      <h3>Pronunciation / 発音</h3>
-      <p>発音、イントネーション、アクセントを改善し、自然で自信のある英語を話せるようにします。</p>
-    </div>
-
-    <div class="class-card">
-      <h3>Medical English / 医療英語</h3>
-      <p>医療従事者向けの専門レッスンで、患者や同僚とのコミュニケーションや医療文書の英語力を向上させます。</p>
-    </div>
-
-    <div class="class-card">
-      <h3>Personalized Lesson / 個別レッスン</h3>
-      <p>生徒の希望に応じてレッスン内容をカスタマイズできます。会話、ビジネス英語など、特定の分野に集中可能です。料金は内容や時間により異なります。</p>
+  <section id="photos">
+    <h2>Photos / 写真</h2>
+    <div class="photo-gallery">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <img src="photo4.jpg" alt="Photo 4">
+      <img src="photo5.jpg" alt="Photo 5">
+      <img src="photo6.jpg" alt="Photo 6">
+      <img src="photo7.jpg" alt="Photo 7">
+      <img src="photo8.jpg" alt="Photo 8">
+      <img src="photo9.jpg" alt="Photo 9">
+      <img src="photo10.jpg" alt="Photo 10">
+      <img src="photo11.jpg" alt="Photo 11">
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact & Booking</h2>
-    <p>Paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。</p>
     <p>Email me at paxfordjp@hotmail.com or fill in the box below to book a lesson. Times depend on availability, and I will confirm your booking as soon as possible.</p>
-
+    <p>paxfordjp@hotmail.com にご連絡いただくか、下のフォームにご記入の上、レッスンを予約してください。日時は空き状況により異なりますので、確認次第、折り返しご連絡いたします。</p>
     <form action="mailto:paxfordjp@hotmail.com" method="post" enctype="text/plain">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
@@ -205,6 +219,5 @@
   <footer>
     <p>&copy; 2026 Paula sensei | English Tutoring</p>
   </footer>
-
 </body>
 </html>
