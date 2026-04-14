@@ -21,6 +21,25 @@
       line-height: 1.6;
       background-color: #f7f7f7;
       color: #333;
+
+      #class-summary {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e6f2ff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+#class-summary h2 {
+  color: #1E90FF;
+}
+#class-summary ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#class-summary li {
+  margin-bottom: 8px;
+}
     }
     header {
       background-color: #1E90FF; /* blue header */
